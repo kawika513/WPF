@@ -1,1 +1,10 @@
-alert("This is in the js file");
+//JavaScript
+
+var yearBorn = 1955;
+
+/*
+console.log("Hello World!");
+consloe.log(yearBorn);
+	*/
+
+alert(yearBorn);
