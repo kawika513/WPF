@@ -1,10 +1,8 @@
 //JavaScript
 
-var yearBorn = 1955;
+var age; //declaration
+age = 28; //definition
 
-/*
-console.log("Hello World!");
-consloe.log(yearBorn);
-	*/
+//storage container = value
 
-alert(yearBorn);
+var yearOfBirth = 1985; //declaring and difining on the same line
