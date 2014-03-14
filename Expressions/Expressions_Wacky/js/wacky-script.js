@@ -9,19 +9,15 @@ var swim = prompt ("On a scale from 0-3, how well can you swim?");
 
 var names = ["null", "null", "Mr. Crabs", "Mr. Crabs", "Spongebob", "Patrick", "Patrick", "Squidward", "Squidward"];
 
-name[4] = "Spongebob";
-name[5] = "Patrick";
-name[6] = "Patrick";
-name[9] = "Patrick";
-name[2] = "Mr. Crabs";
-name[3] = "Mr. Crabs";
-name[8] = "Squidward";
 
 var result = colors + food + swim;
 
 //This alert displays the result of the calculation//
-alert("Your Website Design quote amount is: " + name );
+if (result = 4) {alert("Your Result is: " + names [4] );}
+if (result = 2) {alert("Your Result is: " + names [2] );}
+if (result = 3) {alert("Your Result is: " + names [2] );}
+if (result = 4) {alert("Your Result is: " + names [4] );}
 
 //This will print the result to the console//
-console.log("Your Website Design quote amount is: " + name );
+console.log("Your Result is: " + names [4] );
 
