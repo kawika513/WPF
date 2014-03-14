@@ -12,12 +12,10 @@ var names = ["null", "null", "Mr. Crabs", "Mr. Crabs", "Spongebob", "Patrick", "
 
 var result = colors + food + swim;
 
-//This alert displays the result of the calculation//
-if (result = 4) {alert("Your Result is: " + names [4] );}
-if (result = 2) {alert("Your Result is: " + names [2] );}
-if (result = 3) {alert("Your Result is: " + names [2] );}
+//This alert displays the result of the calculation. All roads lead to Spongebob.//
 if (result = 4) {alert("Your Result is: " + names [4] );}
 
-//This will print the result to the console//
+
+//This will print the result to the console. All roads lead to Spongebob.//
 console.log("Your Result is: " + names [4] );
 
