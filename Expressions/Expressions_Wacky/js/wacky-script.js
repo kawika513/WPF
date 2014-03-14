@@ -8,9 +8,14 @@ var food = prompt ("Select your favorite food. \n 0: Pizza | 1: Krabby Patties |
 var swim = prompt ("On a scale from 0-3, how well can you swim?");
 
 characterNames[4] = "Spongebob";
-characterNames[5,6,7,9] = "Patrick";
-characterNames[2,3] = "Mr. Crabs";
-characterNames[1,8] = "Squidward";
+characterNames[5] = "Patrick";
+characterNames[6] = "Patrick";
+characterNames[7] = "Patrick";
+characterNames[9] = "Patrick";
+characterNames[2] = "Mr. Crabs";
+characterNames[3] = "Mr. Crabs";
+characterNames[1] = "Squidward";
+characterNames[8] = "Squidward";
                       
 var characterNames = colors + food + swim;
 
