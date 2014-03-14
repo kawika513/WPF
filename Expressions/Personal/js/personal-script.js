@@ -1,3 +1,4 @@
+//Kawika Valentine 3/14/14 Expressions Personal
 //Personal Calculator Script
 
 var candyAmount = prompt("This Calculator will determine how much money you spend on Ferrero Rocher chocolates each year. \nPlease enter how many Ferrero Rocher Chocolates you eat per day:");
