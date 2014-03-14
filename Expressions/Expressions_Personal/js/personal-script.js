@@ -17,5 +17,5 @@ var annualCost = candyAmount * perWeek * 52 * costPerPack;
 alert("Your annual cost for Ferrero Rocher Chocolates is: $" + annualCost );
 
 //This will print the result to the console//
-console.log(annualCost);
+console.log("Your annual cost for Ferrero Rocher Chocolates is: $" + annualCost );
 
