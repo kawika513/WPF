@@ -7,6 +7,7 @@ var food = prompt ("Select your favorite food. \n 0: Pizza | 1: Krabby Patties |
 
 var swim = prompt ("On a scale from 0-3, how well can you swim?");
 
+var names = ["null", "null", "Mr. Crabs", "Mr. Crabs", "Spongebob", "Patrick", "Patrick", "Squidward", "Squidward"];
 
 name[4] = "Spongebob";
 name[5] = "Patrick";
@@ -19,8 +20,8 @@ name[8] = "Squidward";
 var result = colors + food + swim;
 
 //This alert displays the result of the calculation//
-alert("Your Website Design quote amount is: $" + result[4] );
+alert("Your Website Design quote amount is: " + name );
 
 //This will print the result to the console//
-console.log("Your Website Design quote amount is: $" + result );
+console.log("Your Website Design quote amount is: " + name );
 
