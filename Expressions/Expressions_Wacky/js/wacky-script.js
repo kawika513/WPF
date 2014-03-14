@@ -12,5 +12,5 @@ characterNames[5,6,7,9] = "Patrick";
 characterNames[2,3] = "Mr. Crabs";
 characterNames[1,8] = "Squidward";
                       
-var characterNames = colors + food + swim
+var characterNames = colors + food + swim;
 
