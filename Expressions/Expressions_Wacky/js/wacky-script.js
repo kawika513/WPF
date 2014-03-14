@@ -5,9 +5,12 @@ var colors = prompt ("This Wacky Calculator will determine just which Spongebob 
 
 var food = prompt ("Select your favorite food. \n 0: Pizza | 1: Krabby Patties | 2: Peanuts | 3: Haute Cusine") ["Pizza", "Krabby Patties", "Peanuts", "Haute Cuisine"]; //0,1,2,3
 
-characterNames[0] = "Spongebob";
-characterNames[1] = "Patrick";
-characterNames[3] = "Mr. Crabs";
-characterNames[4] = "Squidward";
+var phrases = prompt ("On a scale from 0-3, how well can you swim?)
 
+characterNames[4] = "Spongebob";
+characterNames[5,6,7,9] = "Patrick";
+characterNames[2,3] = "Mr. Crabs";
+characterNames[1,8] = "Squidward";
+                      
 var characterNames = prompt (": \n 0: Spongebob | 1: Patrick | 2: Mr. Crabs | 3: Squidward") ["Spongebob", "Patrick", "Mr. Crabs", "Squidward"]; //0,1,2,3
+
