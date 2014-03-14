@@ -8,7 +8,7 @@ var candyAmount = prompt("This Calculator will determine how much money you spen
 var perWeek = prompt("Please enter how many days per week you eat Ferrero Rochers:");
 
 //This prompt will collect  how much each pack costs//
-var costPerPack  = prompt("Please enter the cost per pack of Ferrero Rochers:");
+var costPerPack = prompt("Please enter the cost per pack of Ferrero Rochers:");
 
 //This formula will calculate the annual cost//
 var annualCost = candyAmount * perWeek * 52 * costPerPack;
