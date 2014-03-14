@@ -5,7 +5,7 @@
 var pages = prompt("This Calculator will determine how much it will cost to have your basic website designed. \n Please enter how many pages you wish your site to be:");
 
 //This prompt will collect how many days the user would like their site to be worked on//
-var days = prompt("Please enter how many days youin which you would like this project to be completed (ex: 1, 2, 3, etc...:");
+var days = prompt("Please enter how many days in which you would like this project to be completed (ex: 1, 2, 3, etc...:");
 
 //This prompt will collect  how many videos will be added//
 var videos = prompt("Please enter the number of videos you would like added to your site:");
