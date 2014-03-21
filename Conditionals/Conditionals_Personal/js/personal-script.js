@@ -9,9 +9,10 @@ var more = prompt("Please enter the number of drinks you'd like to contnue to dr
 
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
-/*if(drinkAmount == ""){
+if(drinkAmount == ""){
     var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:");
-}*/
+}
+
 (drinkAmount == "") ? var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:") : var more = prompt("Please enter the number of drinks you'd like to contnue to drink:");
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
