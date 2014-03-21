@@ -1,21 +1,24 @@
-//Kawika Valentine 3/14/14 Expressions Personal
-//Personal Calculator Script
+//Kawika Valentine 3/20/14 Conditionals Personal
+//Personal Conditional Calculator Script
 
-//This prompt will collect how many chocolates are eaten per day//
-var candyAmount = prompt("This Calculator will determine how much money you spend on Ferrero Rocher chocolates each year. \nPlease enter how many Ferrero Rocher Chocolates you eat per day:");
+//This prompt will collect how many drinks the user has had//
+var drinkAmount = prompt("This Calculator will determine whether or not you're permitted to have another alcoholic drink. \nPlease enter how many alcoholic drinks you've had so far:");
 
-//This prompt will collect how many days per week the chocolates are eaten//
-var perWeek = prompt("Please enter how many days per week you eat Ferrero Rochers:");
+//This prompt will collect the number or drinks the user wants to continue to have//
+var more = prompt("Please enter the number of drinks you'd like to contnue to drink:");
 
-//This prompt will collect  how much each pack costs//
-var costPerPack = prompt("Please enter the cost per pack of Ferrero Rochers:");
+//This prompt will remind the user to enter information if they have left a prompt blank//
 
-//This formula will calculate the annual cost//
-var annualCost = candyAmount * perWeek * 52 * costPerPack;
 
-//This alert displays the result of the calculation//
-alert("Your annual cost for Ferrero Rocher Chocolates is: $" + annualCost );
+//If the drink amount is 3 or greater, display "How about some water?"//
+if(drinkAmount >= 3){
+    console.log("How about some water ther slugger?");
+    //This alert displays the result of the calculation//
+    alert("How about some water ther slugger?");
+}else{
+//If the drink amount is 2 or less, display "Perhaps just one more drink"//
+    console.log("Perhaps you've got room for just one more drink.");
+    alert("Perhaps you've got room for just one more drink.");
+}
 
-//This will print the result to the console//
-console.log("Your annual cost for Ferrero Rocher Chocolates is: $" + annualCost );
 
