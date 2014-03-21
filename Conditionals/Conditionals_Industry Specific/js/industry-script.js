@@ -19,16 +19,17 @@ if(hoursAllowed == ""){
 }
 
 //This formula will calculate the hours remaining//
-var hoursRemain = hoursAllowed - hoursWorked;
+var hoursRemain = (hoursAllowed) - (hoursWorked);
 
 //If hours remaining is less than or equal to 15hrs, one project will be allowed//
 
 if(hoursRemain <= 15){
     console.log("You have enough time to complete 1 project.");
     alert("You have enough time to complete 1 project.");
-}else{ if(hoursRemain >= 16){
-    cosole.log("You have enough time to complete at least 2 projects.";
-    alert("You have enough time to complete at least 2 projects.";
+}else{ 
+if(hoursRemain >= 16){
+    cosole.log("You have enough time to complete at least 2 projects.");
+    alert("You have enough time to complete at least 2 projects.");
 }
 
 
