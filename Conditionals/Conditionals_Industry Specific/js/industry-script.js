@@ -1,20 +1,34 @@
-//Kawika Valentine 3/14/14 Expressions Industry Specific//
-//Industry Specific Calculator//
+//Kawika Valentine 3/20/14 Expressions Industry Specific//
+//Industry Specific Conditionals Calculator//
 
-//This prompt will collect how many pages the user wishes their site to be//
-var pages = prompt("This Calculator will determine how much it will cost to have your basic website designed. \n Please enter how many pages you wish your site to be:");
+//This prompt will collect the primary color choice//
+var firstColor = prompt("This Calculator will determine which color your font should be based on your primary and secondary color choice. \nPlease choose Red, Orange, Yellow, Blue, or Green for your primary color:");
 
-//This prompt will collect how many days the user would like their site to be worked on//
-var days = prompt("Please enter how many days in which you would like this project to be completed (ex: 1, 2, 3, etc...:");
+//This prompt will collect the secondary color choice//
+var secColor = prompt("Please choose Red, Orange, Yellow, Blue, or Green for your secondary color color:");
 
-//This prompt will collect  how many videos will be added//
-var videos = prompt("Please enter the number of videos you would like added to your site:");
 
-//This formula will calculate design cost//
-var cost = (pages * 50) + (days * 8 * 65.00) + (videos * 15.00);
+//This prompt will remind the user to enter information if they have left a prompt blank//
+if(firstColor == ""){
+    var firstColor = prompt("Ahem! You've forgotten something! \nPlease choose Red, Orange, Yellow, Blue, or Green for your primary color:");
+}
 
-//This alert displays the result of the calculation//
-alert("Your Website Design quote amount is: $" + cost );
+//This prompt will remind the user to enter information if they have left a prompt blank//
+if(secColor == ""){
+    var more = prompt("Ahem! You've forgotten something! \nPlease choose Red, Orange, Yellow, Blue, or Green for your secondary color color:");
+}
 
-//This will print the result to the console//
-console.log("Your Website Design quote amount is: $" + cost );
+//If the drink amount is 3 or greater and the more amount is 1 or greater, display "How about some water?"//
+if(drinkAmount >= 3 && more >= 1){
+    console.log("How about some water there slugger?");
+    //This alert displays the result of the calculation//
+    alert("How about some water there slugger?");
+}else if(drinkAmount = 2 && more <= 2){
+//If the drink amount is 2 and the more amount is 2 or less, display "Perhaps just one more drink"//
+    console.log("Perhaps you've got room for just one more drink.");
+    alert("Perhaps you've got room for just one more drink.");
+}else{
+//If the drink amount does not meet the above requirements, display "Bottoms up!"//
+    console.log("Bottoms up!");
+    alert("Bottoms up!");
+}
