@@ -8,13 +8,19 @@ var drinkAmount = prompt("This Calculator will determine whether or not you're p
 var more = prompt("Please enter the number of drinks you'd like to contnue to drink:");
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
+if(drinkAmount = ""){
+    var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:");
+}
 
+if(more = ""){
+    var more = prompt("Ahem! You've forgotten something! \nPlease enter how many more drinks you'd like to have:");
+}
 
 //If the drink amount is 3 or greater, display "How about some water?"//
 if(drinkAmount >= 3){
-    console.log("How about some water ther slugger?");
+    console.log("How about some water there slugger?");
     //This alert displays the result of the calculation//
-    alert("How about some water ther slugger?");
+    alert("How about some water there slugger?");
 }else{
 //If the drink amount is 2 or less, display "Perhaps just one more drink"//
     console.log("Perhaps you've got room for just one more drink.");
