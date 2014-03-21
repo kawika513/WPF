@@ -8,7 +8,7 @@ var shoeSize = prompt("This wacky calculator will determine if you will die toda
 var momAge = prompt("Please enter your mom's age:");
 
 //This formula will calculate the age the user will die//
-var deathCalc = shoeSize + momAge + 10
+var deathCalc = shoeSize + momAge + 10;
 
 var die;
 var willDie = ("You're going to die today, best stay indoors.");
@@ -20,6 +20,6 @@ var willLive = ("You'll live to see another day. But be careful.");
 if(deathCalc <= 79)
     console.log("You'll live to see another day. But be careful.");*/
    
-die = (deathCalc >=80) ? willDie : willLive;
+die = (deathCalc >= 80) ? willDie : willLive;
 console.log(die);
 
