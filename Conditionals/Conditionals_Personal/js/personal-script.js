@@ -21,8 +21,8 @@ if(drinkAmount >= 3 && more >= 1){
     console.log("How about some water there slugger?");
     //This alert displays the result of the calculation//
     alert("How about some water there slugger?");
-}else if(drinkAmount <= 2 && more <= 2){
-//If the drink amount is 2 or less and the more amount is 2 or less, display "Perhaps just one more drink"//
+}else if(drinkAmount = 2 && more <= 2){
+//If the drink amount is 2 and the more amount is 2 or less, display "Perhaps just one more drink"//
     console.log("Perhaps you've got room for just one more drink.");
     alert("Perhaps you've got room for just one more drink.");
 }else{
