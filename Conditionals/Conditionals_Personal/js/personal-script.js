@@ -7,11 +7,14 @@ var drinkAmount = prompt("This Calculator will determine whether or not you're p
 //This prompt will collect the number or drinks the user wants to continue to have//
 var more = prompt("Please enter the number of drinks you'd like to contnue to drink:");
 
-//This prompt will remind the user to enter information if they have left a prompt blank//
-if(drinkAmount == ""){
-    var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:");
-}
 
+//This prompt will remind the user to enter information if they have left a prompt blank//
+/*if(drinkAmount == ""){
+    var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:");
+}*/
+(drinkAmount == "") ? var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:") : var more = prompt("Please enter the number of drinks you'd like to contnue to drink:");
+
+//This prompt will remind the user to enter information if they have left a prompt blank//
 if(more == ""){
     var more = prompt("Ahem! You've forgotten something! \nPlease enter how many more drinks you'd like to have:");
 }
