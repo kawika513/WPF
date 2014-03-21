@@ -10,7 +10,7 @@ var hoursAllowed = prompt("Please enter the number of hours you are permitted to
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
 if(hoursWorked == ""){
-    var firstColor = prompt("Ahem! You've forgotten something! \nPlease enter the number of hours you've worked this week:");
+    var hoursAllowed = prompt("Ahem! You've forgotten something! \nPlease enter the number of hours you've worked this week:");
 }
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
