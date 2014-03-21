@@ -18,8 +18,17 @@ if(hoursAllowed == ""){
     var more = prompt("Ahem! You've forgotten something! \nPlease center the number of hours you are allowed to work each week:");
 }
 
-//If the drink amount is 3 or greater and the more amount is 1 or greater, display "How about some water?"//
-if(firstColor = Red, Blue, Green && secColor = Yellow, Green, Orange){
+//This formula will calculate the hours remaining//
+var hoursRemain = hoursAllowed - hoursWorked;
+
+//If hours worked and hours allowed equal less than 32 hours, one project will be allowed//
+
+if(hoursRemain
+
+
+
+
+if( = Red, Blue, Green && secColor = Yellow, Green, Orange){
     console.log("Your font color should be White.");
     //This alert displays the result of the calculation//
     alert("Your font color should be White.");
