@@ -21,19 +21,14 @@ if(hoursAllowed == ""){
 //This formula will calculate the hours remaining//
 var hoursRemain = hoursAllowed - hoursWorked;
 
-//If hours worked and hours allowed equal less than 32 hours, one project will be allowed//
+//If hours remaining is less than or equal to 15hrs, one project will be allowed//
 
-if(hoursRemain
-
-
-
-
-if( = Red, Blue, Green && secColor = Yellow, Green, Orange){
-    console.log("Your font color should be White.");
-    //This alert displays the result of the calculation//
-    alert("Your font color should be White.");
-}else if(firstColor = Yellow, Orange, Blue && secColor = Blue, Green, Red){
-    console.log("Your font should be Black.");
-    //This alert displays the result of the calculation//
-    alert("Your font color should be Black.");
+if(hoursRemain <= 15){
+    console.log("You have enough time to complete 1 project.");
+    alert("You have enough time to complete 1 project.");
+}else{ if(hoursRemain >= 16){
+    cosole.log("You have enough time to complete at least 2 projects.";
+    alert("You have enough time to complete at least 2 projects.";
 }
+
+
