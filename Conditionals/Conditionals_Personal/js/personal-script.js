@@ -32,6 +32,3 @@ if(drinkAmount >= 3 && more >= 1){
     console.log("Bottoms up!");
     alert("Bottoms up!");
 }
-                
-
-

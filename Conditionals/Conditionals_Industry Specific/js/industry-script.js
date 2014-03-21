@@ -9,27 +9,25 @@ var hoursAllowed = prompt("Please enter the number of hours you are permitted to
 
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
-if(hoursWorked == ""){
+if(hoursWorked === ""){
     var hoursAllowed = prompt("Ahem! You've forgotten something! \nPlease enter the number of hours you've worked this week:");
 }
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
-if(hoursAllowed == ""){
+if(hoursAllowed === ""){
     var more = prompt("Ahem! You've forgotten something! \nPlease center the number of hours you are allowed to work each week:");
 }
 
 //This formula will calculate the hours remaining//
-var hoursRemain = (hoursAllowed) - (hoursWorked);
+var hoursRemain = hoursAllowed - hoursWorked;
 
 //If hours remaining is less than or equal to 15hrs, one project will be allowed//
 
 if(hoursRemain <= 15){
     console.log("You have enough time to complete 1 project.");
     alert("You have enough time to complete 1 project.");
-}else{ 
+}
 if(hoursRemain >= 16){
-    cosole.log("You have enough time to complete at least 2 projects.");
+    console.log("You have enough time to complete at least 2 projects.");
     alert("You have enough time to complete at least 2 projects.");
 }
-
-
