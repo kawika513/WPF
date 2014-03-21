@@ -9,11 +9,11 @@ var more = prompt("Please enter the number of drinks you'd like to contnue to dr
 
 //This prompt will remind the user to enter information if they have left a prompt blank//
 if(drinkAmount == ""){
-    alert("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:");
+    var drinkAmount = prompt("Ahem! You've forgotten something! \nPlease enter the number of drinks you've already had:");
 }
 
 if(more == ""){
-    alert("Ahem! You've forgotten something! \nPlease enter how many more drinks you'd like to have:");
+    var more = prompt("Ahem! You've forgotten something! \nPlease enter how many more drinks you'd like to have:");
 }
 
 //If the drink amount is 3 or greater and the more amount is 1 or greater, display "How about some water?"//
